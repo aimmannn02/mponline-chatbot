@@ -1,0 +1,473 @@
+[![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/homeitop.svg)](https://www.mponline.gov.in/Portal/Index.aspx) [Skip to Main Content](https://www.mponline.gov.in/portal/#Navi "Skip") \| [A-](https://www.mponline.gov.in/portal/#) [A](https://www.mponline.gov.in/portal/#) [A+](https://www.mponline.gov.in/portal/#) \| [हिन्दी](https://www.mponline.gov.in/Portal/frmLanguageHandler.aspx?LanguageID=1) [English](https://www.mponline.gov.in/Portal/frmLanguageHandler.aspx?LanguageID=2)
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/search-icn.svg)
+
+\|  \| [Sign Out](https://www.mponline.gov.in/Portal/UserAction.ashx?langid=en-US&Action=LogOut)
+
+Accessibility Tools
+
+Color Adjustment
+
+![hight contrast](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/high.svg)High Contrast![Dark contrast](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/low.svg)Dark Contrast![hightlight Links](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/accessibilitytoolicn.svg)Highlight Links
+
+Text Size
+
+![Increase fonts](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/inc_fontsicn.svg)Increase Text![Decrease fonts](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/inc_fontsicn.svg)Decrease Text![Reset fonts](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/reseticn.svg)Reset Text![Line height](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/lineheighticn.svg)Line Height![text Spacing](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/textspacingicn.svg)Text Spacing
+
+Navigation Adjustment
+
+![Big Cursor](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/bigcursoricn.svg)Big Cursor![hide image](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/hideimageicn.svg)Hide Image [![screen reader](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/readericn.svg)Screen Reader](https://www.mponline.gov.in/screenreader/ "Screen Reader")
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/canceli.svg)
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/searchinput.svg)
+
+[![MPOnline Limited Logo](https://www.mponline.gov.in/portal/IndexNewUtil/images/MPOnline_Logo.png)](https://www.mponline.gov.in/Portal/Index.aspx)
+
+Apply for new KIOSKLogin
+
+Menu
+
+- [Citizen Services](https://www.mponline.gov.in/portal/#)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Apna CSC](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=1&servtypeid=10)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Applications](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=2&servtypeid=1)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Banking Services](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=3&servtypeid=20)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Bill Payments](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=4&servtypeid=2)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Certificates](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=5&servtypeid=12)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Counselling](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=6&servtypeid=4)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Online Assessment](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=7&servtypeid=7)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Recruitment](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=8&servtypeid=13)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Reservation](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=9&servtypeid=3)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png) Universities](https://www.mponline.gov.in/Portal/CitizenHome.aspx?SN=10&servtypeid=5)
+- [Locate KIOSK](https://www.mponline.gov.in/Portal/UserInterface/KIOSK/AuthKIOSKList.aspx?State=MP)
+- [For KIOSK/Citizen](https://www.mponline.gov.in/portal/#)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Apply for new KIOSK](https://www.mponline.gov.in/portal/UserInterface/KIOSK/Application/MPKiosk/frmGuideline.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)How to Apply](https://www.mponline.gov.in/Portal/UserInterface/KIOSK/frmDisplaySecureContent.aspx?src=5xnedsom7W0CG3CfNZay6UsIv6nC7yzvZRrTFDhta3%2fouPt%2fjvVCk6mAkW9a7BNf)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Check Kiosk Application Status](https://www.mponline.gov.in/Portal/UserInterface/KIOSK/frmKioskAppStatus.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Search Kiosk Application No](https://www.mponline.gov.in/Portal/UserInterface/KIOSK/frmSearchAppNo.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Re-Print Application](https://www.mponline.gov.in/Portal/UserInterface/KIOSK/frmDuplicateKioskGeneration.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Register as new Citizen](https://www.mponline.gov.in/Portal/UserInterface/Citizen/CitizenRegistration/registrationform.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Verify Payment](https://www.mponline.gov.in/Portal/UserInterface/Portal/verifyPaymentDtls.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Portal Services Fee](https://www.mponline.gov.in/Portal/UserInterface/KIOSK/frmDisplaySecureContent.aspx?src=nUNit+yEzp/XstK8hGge8UOaHBAQaezNGoxYKrAMtXrAUwjUm+7XovpslPnt75nt)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Payment Double Verification](https://www.mponline.gov.in/Portal/Services/DoubleVerification/frmcitizendoubleverification.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Find Kiosk User ID](https://www.mponline.gov.in/Portal/UserInterface/KIOSK/Utility/FindUserId.aspx)
+- [Career](https://www.mponline.gov.in/Portal/frmOpenings.aspx)
+- [About us](https://www.mponline.gov.in/portal/#)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)About MPOnline](https://www.mponline.gov.in/Portal/AboutMPOnline.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Testimonial](https://www.mponline.gov.in/Portal/frmtestimonial.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Awards](https://www.mponline.gov.in/Portal/frmAchievements.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Annual Reports](https://www.mponline.gov.in/Portal/investors.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Workshop Picture Gallery](https://www.mponline.gov.in/Portal/WorkshopPicGallery/index.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Career](https://www.mponline.gov.in/Portal/frmOpenings.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)CSR Activity](https://csr.mponline.gov.in/)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Video Gallery](https://www.mponline.gov.in/Portal/VideoGallery.aspx)
+- [Product Catalogue](https://www.mponline.gov.in/portal/productcatalogue/default.aspx)
+- [Contact us](https://www.mponline.gov.in/portal/#)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Contact Address](https://www.mponline.gov.in/Portal/ContactHome.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Grievances](https://www.mponline.gov.in/Portal/Content/CustomerCareLogMantainanceSystem/FRMCitizenMailLogPage.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Feedback](https://www.mponline.gov.in/Portal/Content/CustomerCareLogMantainanceSystem/FRMfeedback.aspx)
+  - [![](https://www.mponline.gov.in/Quick%20Links/portalImages/arow.png)Ask Sarthi ( Chat Bot )](https://www.mponline.gov.in/Portal/AskSarthi.aspx)
+
+UX4G Accessibility Tool
+
+## Accessibility options Ctrl+F2
+
+Bigger Text
+
+Smaller Text
+
+Text Spacing
+
+Line Height
+
+Dyslexia Friendly
+
+ADHD Mode
+
+SaturationLow SaturationHigh SaturationDesaturate
+
+Light-Dark
+
+Invert Colors
+
+Highlight Links
+
+Text To Speech
+
+Cursor
+
+Pause Animation
+
+Hide Images
+
+Reset All Settings
+[Created by](https://www.ux4g.gov.in/)
+
+Ctrl+F2![icon](data:image/svg+xml,%0A%3Csvg width='32' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1_1506)' fill='%23fff'%3E%3Cpath d='M16 7a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z'/%3E%3Cpath d='M27 7.05l-.028.008-.026.008a7.112 7.112 0 0 0-.188.055c-1.163.341-6.808 1.933-10.785 1.933-3.696 0-8.83-1.375-10.472-1.842A4.61 4.61 0 0 0 5 7.05c-1.188-.313-2 .893-2 1.996 0 1.092.98 1.612 1.972 1.985v.017l5.95 1.86c.609.232.771.47.85.677.259.662.053 1.972-.02 2.43l-.363 2.812L9.378 29.84l-.017.092-.014.08c-.145 1.009.596 1.988 2 1.988 1.225 0 1.766-.846 2-1.996.234-1.15 1.75-9.848 2.625-9.848s2.677 9.848 2.677 9.848c.235 1.15.775 1.996 2 1.996 1.408 0 2.15-.984 2-1.996a3.591 3.591 0 0 0-.047-.254l-2.04-10.92-.361-2.813c-.262-1.638-.052-2.18.02-2.306a.07.07 0 0 0 .005-.01c.067-.125.375-.405 1.092-.674l5.58-1.95c.034-.01.068-.02.101-.033 1-.375 2-.894 2-1.996 0-1.102-.811-2.31-1.999-1.998z'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_1506'%3E%3Cpath fill='%23fff' d='M0 0h32v32H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E)Accessibility Options
+
+![icon](data:image/svg+xml,%0A%3Csvg width='32' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1_1506)' fill='%23fff'%3E%3Cpath d='M16 7a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z'/%3E%3Cpath d='M27 7.05l-.028.008-.026.008a7.112 7.112 0 0 0-.188.055c-1.163.341-6.808 1.933-10.785 1.933-3.696 0-8.83-1.375-10.472-1.842A4.61 4.61 0 0 0 5 7.05c-1.188-.313-2 .893-2 1.996 0 1.092.98 1.612 1.972 1.985v.017l5.95 1.86c.609.232.771.47.85.677.259.662.053 1.972-.02 2.43l-.363 2.812L9.378 29.84l-.017.092-.014.08c-.145 1.009.596 1.988 2 1.988 1.225 0 1.766-.846 2-1.996.234-1.15 1.75-9.848 2.625-9.848s2.677 9.848 2.677 9.848c.235 1.15.775 1.996 2 1.996 1.408 0 2.15-.984 2-1.996a3.591 3.591 0 0 0-.047-.254l-2.04-10.92-.361-2.813c-.262-1.638-.052-2.18.02-2.306a.07.07 0 0 0 .005-.01c.067-.125.375-.405 1.092-.674l5.58-1.95c.034-.01.068-.02.101-.033 1-.375 2-.894 2-1.996 0-1.102-.811-2.31-1.999-1.998z'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_1506'%3E%3Cpath fill='%23fff' d='M0 0h32v32H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E)**Open the accessibility option**
+
+[![Carousel Image](https://www.mponline.gov.in/Quick%20Links/Portalimages/Home/AICC.jpg)](https://eservicesnest.com/CustomerSolutionsHub)
+
+[![Carousel Image](https://www.mponline.gov.in/Quick%20Links/Portalimages/Home/Hackathon.jpg)](https://innovate.mponline.gov.in/)
+
+[![Carousel Image](https://www.mponline.gov.in/Quick%20Links/Portalimages/Home/eVikas.jpg)](https://evikas.mponline.gov.in/)
+
+[![Carousel Image](https://www.mponline.gov.in/Quick%20Links/Portalimages/Home/XtraTrust.jpg)](https://www.mponline.gov.in/portal/#)
+
+[![Carousel Image](https://www.mponline.gov.in/Quick%20Links/Portalimages/Home/MIP.jpg)](https://internship.mponline.gov.in/)
+
+Previous
+Next
+
+![KIOSK Image](https://www.mponline.gov.in/portal/IndexNewUtil/images/MPONLINEkiosk.png)
+
+#### Find KIOSK
+
+Select StateMadhya Pradesh
+
+Select DivisionBhopalChambalGwaliorIndoreJabalpurNarmadapuramRewaSagarShahdolUjjain
+
+Select District
+
+## Trending Services
+
+Latest services to enhance convenience and accessibility for citizens in Madhya Pradesh
+
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/IMS.png)**IMS**\\
+\\
+INSTITUTE MANAGEMENT SYSTEM](https://isms.mponline.gov.in/Portal/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MUSEUM.png)**MUSEUM**\\
+\\
+MUSEUM TICKET BOOKING SYSTEM](https://mpculture.mponline.gov.in/home/index)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/SHRAM.png)**SHRAM**\\
+\\
+LABOUR DEPARMENT](https://labour.mponline.gov.in/portal/index.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MCRPV.png)**MCRPV**\\
+\\
+Makhanlal Chaturvedi University](https://mcrpv.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/LIC%20Premium.png)**LIC Premium**\\
+\\
+LIC Premium Payment](https://www.mponline.gov.in/Portal/Services/LIC/Premium/ShowDetails.aspx?)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/National%20Parks.png)**National Parks**\\
+\\
+Forest Department Madhya Pradesh](https://forest.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Barkatullah.png)**Barkatullah**\\
+\\
+Barkatullah University](https://bubhopal.mponline.gov.in/Portal/index.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Counseling%20DTE%20MP.png)**Counseling DTE MP**\\
+\\
+BE.,BPharma,PPT,MTech,MPharma etc](http://dte.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MPBSE.png)**MPBSE**\\
+\\
+M.P. Board of Secondary Education](https://mpbse.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Electricity.png)**Electricity**\\
+\\
+Electricity Bill Payment](https://mpeb.mponline.gov.in/portal/home.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MPESB.png)**MPESB**\\
+\\
+Madhya Pradesh Employees Selection Board](https://esb.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/RCMS%20New.png)**RCMS New**\\
+\\
+RCMS New](https://rcms.mponline.gov.in/Portal/Services/RCMS/default.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/PCPNDT.png)**PCPNDT**\\
+\\
+Pre-Conception and Pre-Natal Diagonastic Technique](http://pcpndt.mponline.gov.in/HOME/Login.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MGCGV.png)**MGCGV**\\
+\\
+MAHATMA GANDHI CHITRAKOOT GRAMODAYA VISHWAVIDHYALAYA](https://mgcgv.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Jiwaji%20University.png)**Jiwaji University**\\
+\\
+Jiwaji University Gwalior](https://jiwaji.mponline.gov.in/Portal/Index.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Devi%20Ahilya.png)**Devi Ahilya**\\
+\\
+Devi Ahilya Vishwavidhalaya](https://davv.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/IMS.png)**IMS**\\
+\\
+INSTITUTE MANAGEMENT SYSTEM](https://isms.mponline.gov.in/Portal/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MUSEUM.png)**MUSEUM**\\
+\\
+MUSEUM TICKET BOOKING SYSTEM](https://mpculture.mponline.gov.in/home/index)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/SHRAM.png)**SHRAM**\\
+\\
+LABOUR DEPARMENT](https://labour.mponline.gov.in/portal/index.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MCRPV.png)**MCRPV**\\
+\\
+Makhanlal Chaturvedi University](https://mcrpv.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/LIC%20Premium.png)**LIC Premium**\\
+\\
+LIC Premium Payment](https://www.mponline.gov.in/Portal/Services/LIC/Premium/ShowDetails.aspx?)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/National%20Parks.png)**National Parks**\\
+\\
+Forest Department Madhya Pradesh](https://forest.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Barkatullah.png)**Barkatullah**\\
+\\
+Barkatullah University](https://bubhopal.mponline.gov.in/Portal/index.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Counseling%20DTE%20MP.png)**Counseling DTE MP**\\
+\\
+BE.,BPharma,PPT,MTech,MPharma etc](http://dte.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MPBSE.png)**MPBSE**\\
+\\
+M.P. Board of Secondary Education](https://mpbse.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Electricity.png)**Electricity**\\
+\\
+Electricity Bill Payment](https://mpeb.mponline.gov.in/portal/home.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MPESB.png)**MPESB**\\
+\\
+Madhya Pradesh Employees Selection Board](https://esb.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/RCMS%20New.png)**RCMS New**\\
+\\
+RCMS New](https://rcms.mponline.gov.in/Portal/Services/RCMS/default.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/PCPNDT.png)**PCPNDT**\\
+\\
+Pre-Conception and Pre-Natal Diagonastic Technique](http://pcpndt.mponline.gov.in/HOME/Login.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MGCGV.png)**MGCGV**\\
+\\
+MAHATMA GANDHI CHITRAKOOT GRAMODAYA VISHWAVIDHYALAYA](https://mgcgv.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Jiwaji%20University.png)**Jiwaji University**\\
+\\
+Jiwaji University Gwalior](https://jiwaji.mponline.gov.in/Portal/Index.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/Devi%20Ahilya.png)**Devi Ahilya**\\
+\\
+Devi Ahilya Vishwavidhalaya](https://davv.mponline.gov.in/)
+
+‹›
+
+## Citizen Services
+
+Latest services to enhance convenience and accessibility for citizens in Madhya Pradesh
+
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MPBSE.png)MPBSEM.P. Board of Secondary Education](https://mpbse.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/RCMS%20New.png)RCMS NewRCMS New](https://rcms.mponline.gov.in/Portal/Services/RCMS/default.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/PCPNDT.png)PCPNDTPre-Conception and Pre-Natal Diagonastic Technique](http://pcpndt.mponline.gov.in/HOME/Login.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/SHRAM.png)SHRAMLABOUR DEPARMENT](https://labour.mponline.gov.in/portal/index.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/PanCard.png)PanCardPanCard](https://www.mponline.gov.in/portal/services/pancard/home.aspx)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MPSS.png)MPSSMaharishi Patanjali Sanskrit Sansthan](https://mpss.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/MP%20SAMAST.png)MP SAMASTMP SAMAST](https://samast.mponline.gov.in/)
+
+[![](https://www.mponline.gov.in/Quick%20Links/Portalimages/servicon/FDA.png)FDAFood And Drugs Administration](https://fdamp.mponline.gov.in/PORTAL/SERVICES/FDA/DRUG/HOME.ASPX)
+
+[View More..](https://mponline.gov.in/Portal/CitizenHome.aspx)
+
+![MPOnline About image](https://www.mponline.gov.in/portal/IndexNewUtil/images/mponlineemployee.jpg)
+
+## What Does MPOnline Do?
+
+MPOnline Limited is the Joint Venture company between Government of Madhya Pradesh and TATA Consultancy Services (TCS), established in 2006 to empower citizens and bring transformative improvements in public service delivery. With a strong focus on accessibility and citizen-centric services, MPOnline continues to drive digital innovation across the state.
+
+
+Offering a comprehensive suite of services including G2C (Government to Citizen), G2B (Government to Business), B2C (Business to Citizen), and B2B (Business to Business) solutions, MPOnline also plays a vital role in sectors such as higher education, online assessment systems, and school education.
+
+
+[View More..](https://www.mponline.gov.in/Portal/AboutMPOnline.aspx)
+
+![kiosk count icon](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/kioskIcn.svg)
+
+## 53,000 +
+
+KIOSK
+
+
+![District count icon](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/districticn.svg)
+
+## 44
+
+District
+
+
+![Tehsil count icon](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/tehsilicn.svg)
+
+## 342
+
+Tehsil
+
+## What Clients Says
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+The digital counselling process developed and delivered by your team has been exceptionally
+efficient and user-friendly.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  REGISTRAR, NDVSU University, JABALPUR
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+I truly appreciate MPOnline determination and professionalism with which you have
+handled these difficulties and completed the counselling on time.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  Director Medical Education Madhya Pradesh
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+The dedication, professionalism, and attention to detail displayed throughout the
+process were truly commendable.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  Registrar, Lakshmibai National Institute of Physical Education (LNIPE), Gwalior.
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+The digital counselling process developed and delivered by your team has been exceptionally
+efficient and user-friendly.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  REGISTRAR, NDVSU University, JABALPUR
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+I truly appreciate MPOnline determination and professionalism with which you have
+handled these difficulties and completed the counselling on time.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  Director Medical Education Madhya Pradesh
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+The dedication, professionalism, and attention to detail displayed throughout the
+process were truly commendable.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  Registrar, Lakshmibai National Institute of Physical Education (LNIPE), Gwalior.
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+The digital counselling process developed and delivered by your team has been exceptionally
+efficient and user-friendly.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  REGISTRAR, NDVSU University, JABALPUR
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+I truly appreciate MPOnline determination and professionalism with which you have
+handled these difficulties and completed the counselling on time.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  Director Medical Education Madhya Pradesh
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/commaicn.svg)
+The dedication, professionalism, and attention to detail displayed throughout the
+process were truly commendable.
+
+
+###### ![](https://www.mponline.gov.in/portal/IndexNewUtil/images/HAND.png)  Registrar, Lakshmibai National Institute of Physical Education (LNIPE), Gwalior.
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/svgicns/arrowtoTopicn.svg)
+
+![](https://www.mponline.gov.in/portal/IndexNewUtil/images/update_Eng.png)
+
+×
+
+
+[![](https://www.mponline.gov.in/Portal/IndexNewUtil/images/MPOnline_Logo.png)](https://www.mponline.gov.in/Portal/Index.aspx)
+
+###### Connect with Us
+
+- [![FB Icon](https://www.mponline.gov.in/Portal/IndexNewUtil/images/svgicns/fbicn.svg)](https://www.facebook.com/share/183txtS42P/?mibextid=LQQJ4d)
+- [![X Icon](https://www.mponline.gov.in/Portal/IndexNewUtil/images/svgicns/xicn.svg)](https://x.com/mponlinelimited)
+- [![Linkedin Icon](https://www.mponline.gov.in/Portal/IndexNewUtil/images/svgicns/linkedinicn.svg)](https://www.linkedin.com/company/mponline-ltd/)
+- [![Youtube Icon](https://www.mponline.gov.in/Portal/IndexNewUtil/images/svgicns/youtubeicn.svg)](https://www.youtube.com/@mponlinelimitedofficial)
+- [![Youtube Icon](https://www.mponline.gov.in/Portal/IndexNewUtil/images/svgicns/instaicn.svg)](https://www.instagram.com/mponlinelimitedofficial/)
+
+![](https://www.mponline.gov.in/Quick%20Links/PortalImages/MPOHeaderFooterLogo/ux4g-logo.svg)
+
+Last Updated On : 15.09.2026
+
+###### MP Gov Links
+
+[MPOnline Website](https://mponlinelimited.com/) [Department of Public Relation MP](http://www.mpinfo.org/) [Madhya Pradesh Government](http://mp.gov.in/) [Chief Minister's Relief Fund](https://www.mponline.gov.in/Portal/Services/CMRF/landingHome.html) [MPSEDC](https://www.mpsedc.mp.gov.in/)
+
+###### Documentations
+
+[Terms of Use](https://www.mponline.gov.in/Portal/TermsOfUse.aspx) [Privacy Policy](https://www.mponline.gov.in/Portal/policy.aspx) [Payment Terms & Conditions](https://www.mponline.gov.in/Portal/payment-terms-conditions.aspx) [Cancellation / Refund Policy](https://www.mponline.gov.in/Portal/CancellationRefundPolicy.aspx) [Disclaimer](https://www.mponline.gov.in/Portal/disclaimer.aspx) [SiteMap](https://www.mponline.gov.in/Portal/SiteMap.aspx)
+
+###### Contact
+
+##### Office Address
+
+MPOnline Limited JV bw MP Govt. & TCS,
+
+Information Technology Park
+
+3rd Floor, C-4, IT Park Campus Badwai,
+
+Gandhi Nagar, Bhopal (MP) – 462033
+
+Phone: +917556720222
+
+URL: https://www.mponline.gov.in
+
+[![](https://www.mponline.gov.in/Quick%20Links/PortalImages/MPOHeaderFooterLogo/CMMI-3_1.png)](https://pars.cmmiinstitute.com/appraisals/75109)
+
+[![](https://www.mponline.gov.in/Quick%20Links/PortalImages/MPOHeaderFooterLogo/CMMI-3_2.png)](https://pars.cmmiinstitute.com/appraisals/75109)
+
+[![](https://www.mponline.gov.in/Quick%20Links/PortalImages/MPOHeaderFooterLogo/ISO2015.png)](https://cg.crestecert.com/UserView.aspx?Id=MjA5MQ==)
+
+[![](https://www.mponline.gov.in/Quick%20Links/PortalImages/MPOHeaderFooterLogo/ISO2022.png)](https://cg.crestecert.com/UserView.aspx?Id=MjA5Mg==)
+
+[![](https://www.mponline.gov.in/Quick%20Links/PortalImages/MPOHeaderFooterLogo/ISO2022a.png)](https://cg.crestecert.com/UserView.aspx?Id=MzEzMw==)
+
+Site best viewed in Microsoft Internet Explorer 10+, Mozilla Firefox and Google Chrome in 1024x768 resolution.
+
+![](https://www.mponline.gov.in/portal/chatbot/FAQChat/images/dot.svg)
+
+![](https://www.mponline.gov.in/portal/chatbot/FAQChat/images/dot.svg)
+
+![](https://www.mponline.gov.in/portal/chatbot/FAQChat/images/dot.svg)
+
+![](https://www.mponline.gov.in/portal/chatbot/FAQChat/images/Saarathi_logo.png)
+
+![](https://www.mponline.gov.in/PORTAL/ChatBot/FAQChat/images/HeaderIcon.png)
+Ask Sarthi
+
+
+- [![](https://www.mponline.gov.in/Portal/Chatbot/FAQCHAT/Images/Feedback.svg)\\
+Feedback](https://www.mponline.gov.in/portal/#)
+- [Restart Conversation](https://www.mponline.gov.in/portal/#)
+
+**नमस्कार !**
+
+Welcome to 'Sarthi'. How can I assist you today?
+
+![](https://www.mponline.gov.in/Portal/Chatbot/FAQCHAT/Images/A.svg)![](https://www.mponline.gov.in/Portal/Chatbot/FAQCHAT/Images/aaa.svg)
+
+अA
+
+![Playing](https://www.mponline.gov.in/portal/chatbot/faqchat/images/soundwave.gif)
+
+**x**
+
+NARMADA
