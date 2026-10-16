@@ -11,6 +11,16 @@ function Feedback() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // ✅ Validation
+    if (!name.trim()) {
+      setMessage("Please enter your name.");
+      return;
+    }
+    if (!comments.trim()) {
+      setMessage("Please enter a comment.");
+      return;
+    }
+
     fetch("http://127.0.0.1:8000/feedback", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -20,6 +30,8 @@ function Feedback() {
       .then((data) => {
         if (data.feedback_id) {
           setMessage("Thank you! Feedback ID: " + data.feedback_id);
+          setName("");
+          setComments("");
         } else {
           setMessage("Something went wrong");
         }
@@ -28,38 +40,39 @@ function Feedback() {
   };
 
   const inputStyle = {
-  width: "100%",
-  padding: "10px",
-  marginTop: "6px",
-  borderRadius: "6px",
-  border: "1px solid #ccc",
-  fontSize: "14px",
-  boxSizing: "border-box",
-};
+    width: "100%",
+    padding: "10px",
+    marginTop: "6px",
+    borderRadius: "6px",
+    border: "1px solid #ccc",
+    fontSize: "14px",
+    boxSizing: "border-box",
+  };
 
-const labelStyle = {
-  fontWeight: "bold",
-  color: "#1F2937",
-  fontSize: "14px",
-};
+  const labelStyle = {
+    fontWeight: "bold",
+    color: colors.text,
+    fontSize: "14px",
+  };
+
   return (
     <div
-  style={{
-    maxWidth: "500px",
-    margin: "60px auto",
-    padding: "30px",
-    backgroundColor: "#FFFFFF",
-    borderRadius: "12px",
-    boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-    fontFamily: "Arial, sans-serif",
-    textAlign: "left",
-  }}
->
-  <h2 style={{ color: "#16325C", marginBottom: "20px", textAlign: "center" }}>
-    Feedback
-  </h2>
+      style={{
+        maxWidth: "500px",
+        margin: "60px auto",
+        padding: "30px",
+        backgroundColor: colors.card,
+        borderRadius: "12px",
+        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+        fontFamily: "Arial, sans-serif",
+        textAlign: "left",
+      }}
+    >
+      <h2 style={{ color: colors.heading, marginBottom: "20px", textAlign: "center" }}>
+        Feedback
+      </h2>
 
-  <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: "16px" }}>
           <label style={labelStyle}>Name:</label>
           <input
@@ -113,7 +126,7 @@ const labelStyle = {
       </form>
 
       {message && (
-        <p style={{ marginTop: "15px", color: "#2F9E44", textAlign: "center" }}>
+        <p style={{ marginTop: "15px", color: message.includes("Thank") ? "#2F9E44" : "#DC2626", textAlign: "center" }}>
           {message}
         </p>
       )}

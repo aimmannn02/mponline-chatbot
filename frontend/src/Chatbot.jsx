@@ -1,11 +1,23 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
+import { useTheme } from "./ThemeContext";
 
-function Chatbot() {
+function Chatbot({ currentUser }) {
+  const { colors } = useTheme();
   const [input, setInput] = useState("");
-  const [messages, setMessages] = useState([]);
+  const historyKey = `chatHistory_${currentUser.user_id}`;
+
+  // ✅ FIXED: load history directly as the initial state — no race condition possible
+  const [messages, setMessages] = useState(() => {
+    const saved = localStorage.getItem(historyKey);
+    return saved ? JSON.parse(saved) : [];
+  });
   const [loading, setLoading] = useState(false);
 
+  // Save history every time messages change (this part was already correct)
+  useEffect(() => {
+    localStorage.setItem(historyKey, JSON.stringify(messages));
+  }, [messages]);
   const suggestions = [
     "How do I check my result?",
     "Payment failed, what now?",
@@ -44,6 +56,14 @@ function Chatbot() {
     setInput(text);
   };
 
+  // ✅ NEW: clear history button
+  const handleClearHistory = () => {
+    const confirmed = window.confirm("Clear your entire chat history?");
+    if (!confirmed) return;
+    setMessages([]);
+    localStorage.removeItem(historyKey);
+  };
+
   return (
     <div
       style={{
@@ -55,15 +75,33 @@ function Chatbot() {
     >
       <div
         style={{
-          backgroundColor: "#FFFFFF",
+          backgroundColor: colors.card,
           borderRadius: "12px",
           boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
           padding: "20px",
         }}
       >
-        <h1 style={{ textAlign: "center", color: "#16325C", marginTop: 0 }}>
-          Ask MPOnline
-        </h1>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <h1 style={{ textAlign: "center", color: colors.heading, marginTop: 0, flex: 1 }}>
+            Ask MPOnline
+          </h1>
+          {messages.length > 0 && (
+            <button
+              onClick={handleClearHistory}
+              style={{
+                background: "none",
+                border: `1px solid ${colors.border}`,
+                color: colors.subtext,
+                borderRadius: "6px",
+                padding: "6px 10px",
+                fontSize: "12px",
+                cursor: "pointer",
+              }}
+            >
+              Clear
+            </button>
+          )}
+        </div>
 
         <div
           style={{
@@ -76,7 +114,7 @@ function Chatbot() {
         >
           {messages.length === 0 && (
             <div style={{ textAlign: "center", padding: "20px 20px" }}>
-              <p style={{ color: "#6B7280", fontSize: "15px", marginBottom: "20px" }}>
+              <p style={{ color: colors.subtext, fontSize: "15px", marginBottom: "20px" }}>
                 👋 Hi! I'm here to help with MPOnline services — ask me anything
                 about registration, payments, or certificates.
               </p>
@@ -95,9 +133,9 @@ function Chatbot() {
                     style={{
                       padding: "8px 14px",
                       borderRadius: "20px",
-                      border: "1px solid #16325C",
-                      backgroundColor: "#FFFFFF",
-                      color: "#16325C",
+                      border: `1px solid ${colors.navy}`,
+                      backgroundColor: colors.card,
+                      color: colors.text,
                       fontSize: "13px",
                       cursor: "pointer",
                     }}
@@ -130,8 +168,8 @@ function Chatbot() {
                       width: "28px",
                       height: "28px",
                       borderRadius: "50%",
-                      backgroundColor: "#16325C",
-                      color: "#F5A623",
+                      backgroundColor: colors.navy,
+                      color: colors.gold,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -145,8 +183,8 @@ function Chatbot() {
                 <div
                   className={isUser ? "" : "bot-bubble"}
                   style={{
-                    backgroundColor: isUser ? "#16325C" : "#F1F3F5",
-                    color: isUser ? "#FFFFFF" : "#1F2937",
+                    backgroundColor: isUser ? colors.navy : colors.bg,
+                    color: isUser ? "#FFFFFF" : colors.text,
                     padding: "10px 14px",
                     borderRadius: isUser
                       ? "14px 14px 2px 14px"
@@ -164,7 +202,7 @@ function Chatbot() {
             <div
               style={{
                 alignSelf: "flex-start",
-                backgroundColor: "#F1F3F5",
+                backgroundColor: colors.bg,
                 padding: "10px 14px",
                 borderRadius: "14px 14px 14px 2px",
                 marginBottom: "8px",
@@ -216,7 +254,7 @@ function Chatbot() {
         }
         .bot-bubble p { margin: 0 0 8px 0; }
         .bot-bubble ul, .bot-bubble ol { margin: 4px 0; padding-left: 20px; }
-        .bot-bubble strong { color: #16325C; }
+        .bot-bubble strong { color: ${colors.heading}; }
       `}</style>
     </div>
   );

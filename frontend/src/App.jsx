@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Auth from "./Auth";
+import Profile from "./Profile";
 import Grievance from "./Grievance";
 import Feedback from "./Feedback";
 import Dashboard from "./Dashboard";
@@ -8,8 +9,31 @@ import { useTheme } from "./ThemeContext";
 
 function App() {
   const { darkMode, setDarkMode, colors } = useTheme();
-  const [view, setView] = useState("chatbot");
+  const [view, setView] = useState("auth");
   const [currentUser, setCurrentUser] = useState(null);
+
+  useEffect(() => {
+    const saved = localStorage.getItem("currentUser");
+    if (saved) {
+      setCurrentUser(JSON.parse(saved));
+      setView("grievance");
+    }
+  }, []);
+
+  const handleLoginSuccess = (user) => {
+    setCurrentUser(user);
+    localStorage.setItem("currentUser", JSON.stringify(user));
+    setView("grievance");
+  };
+
+  const handleLogout = () => {
+  const confirmed = window.confirm("Are you sure you want to logout?");
+  if (!confirmed) return;
+
+  setCurrentUser(null);
+  localStorage.removeItem("currentUser");
+  setView("auth");
+};
 
   const navButtonStyle = {
     backgroundColor: "#F5A623",
@@ -40,15 +64,26 @@ function App() {
           MPOnline FAQ
         </div>
         <div style={{ display: "flex", gap: "10px" }}>
-          <button onClick={() => setView("auth")} style={navButtonStyle}>
-            {currentUser ? "Account" : "Login / Register"}
-          </button>
-          <button onClick={() => setView("grievance")} style={navButtonStyle}>Grievance</button>
-          <button onClick={() => setView("feedback")} style={navButtonStyle}>Feedback</button>
-          {currentUser?.is_admin && (
-            <button onClick={() => setView("dashboard")} style={navButtonStyle}>Dashboard</button>
+          {!currentUser && (
+            <button onClick={() => setView("auth")} style={navButtonStyle}>
+              Login / Register
+            </button>
           )}
-          <button onClick={() => setView("chatbot")} style={navButtonStyle}>Chatbot</button>
+
+          {currentUser && (
+            <>
+              <button onClick={() => setView("grievance")} style={navButtonStyle}>Grievance</button>
+              <button onClick={() => setView("feedback")} style={navButtonStyle}>Feedback</button>
+              {currentUser?.is_admin && (
+                <button onClick={() => setView("dashboard")} style={navButtonStyle}>Dashboard</button>
+              )}
+              <button onClick={() => setView("chatbot")} style={navButtonStyle}>Chatbot</button>
+              <button onClick={() => setView("profile")} style={navButtonStyle}>Profile</button>
+              <button onClick={handleLogout} style={{ ...navButtonStyle, backgroundColor: "#c0392b", color: "white" }}>
+                Logout
+              </button>
+            </>
+          )}
 
           <button
             onClick={() => setDarkMode(!darkMode)}
@@ -73,14 +108,14 @@ function App() {
 
         <hr />
 
-        {view === "auth" && <Auth setCurrentUser={setCurrentUser} setView={setView} />}
-        {view === "grievance" && <Grievance />}
-        {view === "feedback" && <Feedback />}
-        {view === "chatbot" && <Chatbot />}
-
+        {view === "auth" && <Auth setCurrentUser={handleLoginSuccess} setView={setView} />}
+        {view === "grievance" && (currentUser ? <Grievance currentUser={currentUser} /> : <Auth setCurrentUser={handleLoginSuccess} setView={setView} />)}
+        {view === "feedback" && (currentUser ? <Feedback /> : <Auth setCurrentUser={handleLoginSuccess} setView={setView} />)}
+        {view === "chatbot" && (currentUser ? <Chatbot currentUser={currentUser} /> : <Auth setCurrentUser={handleLoginSuccess} setView={setView} />)}
         {view === "dashboard" && (
-          currentUser?.is_admin ? <Dashboard /> : <p style={{ color: "red" }}>Access Denied. Admins only.</p>
-        )}
+  currentUser?.is_admin ? <Dashboard currentUser={currentUser} /> : <p style={{ color: "red" }}>Access Denied. Admins only.</p>
+)}
+        {view === "profile" && (currentUser ? <Profile currentUser={currentUser} onLogout={handleLogout} /> : <Auth setCurrentUser={handleLoginSuccess} setView={setView} />)}
       </div>
     </div>
   );

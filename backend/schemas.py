@@ -10,6 +10,7 @@ class UserLogin(BaseModel):
     password: str
 
 class GrievanceCreate(BaseModel):
+    user_id: int
     name: str
     category: str
     description: str
@@ -21,3 +22,7 @@ class FeedbackCreate(BaseModel):
 
 class ChatMessage(BaseModel):
     message: str
+
+class GrievanceStatusUpdate(BaseModel):
+    status: str
+    admin_id: int

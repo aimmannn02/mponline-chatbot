@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 from google import genai
 from database import SessionLocal, engine
 from models import Base, User, Grievance, Feedback
-from schemas import UserCreate, UserLogin, GrievanceCreate, FeedbackCreate, ChatMessage
+from schemas import UserCreate, UserLogin, GrievanceCreate, FeedbackCreate, ChatMessage, GrievanceStatusUpdate
 
 # Load environment variables
 load_dotenv()
@@ -90,6 +90,7 @@ def login(user: UserLogin, db: Session = Depends(get_db)):
 @app.post("/grievance")
 def create_grievance(grievance: GrievanceCreate, db: Session = Depends(get_db)):
     new_grievance = Grievance(
+        user_id=grievance.user_id,
         name=grievance.name,
         category=grievance.category,
         description=grievance.description,
@@ -124,6 +125,32 @@ def create_feedback(feedback: FeedbackCreate, db: Session = Depends(get_db)):
 def get_grievances(db: Session = Depends(get_db)):
     grievances = db.query(Grievance).all()
     return grievances
+
+@app.get("/grievances/user/{user_id}")
+def get_user_grievances(user_id: int, db: Session = Depends(get_db)):
+    grievances = db.query(Grievance).filter(Grievance.user_id == user_id).all()
+    return grievances
+
+@app.patch("/grievance/{grievance_id}/status")
+def update_grievance_status(grievance_id: int, update: GrievanceStatusUpdate, db: Session = Depends(get_db)):
+    # ✅ NEW: verify the requester is actually an admin
+    admin_user = db.query(User).filter(User.id == update.admin_id).first()
+    if not admin_user or not admin_user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admins can update grievance status")
+
+    grievance = db.query(Grievance).filter(Grievance.id == grievance_id).first()
+    if not grievance:
+        raise HTTPException(status_code=404, detail="Grievance not found")
+
+    grievance.status = update.status
+    db.commit()
+    db.refresh(grievance)
+
+    return {
+        "message": "Status updated successfully",
+        "grievance_id": grievance.id,
+        "status": grievance.status,
+    }
 
 @app.get("/feedback")
 def get_all_feedback(db: Session = Depends(get_db)):

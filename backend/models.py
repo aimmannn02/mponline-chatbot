@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
@@ -12,14 +12,17 @@ class User(Base):
     password = Column(String)
     is_admin = Column(Boolean, default=False)
 
+
 class Grievance(Base):
     __tablename__ = "grievances"
 
     id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"))
     name = Column(String)
     category = Column(String)
     description = Column(String)
     status = Column(String, default="Submitted")
+
 
 class Feedback(Base):
     __tablename__ = "feedback"
