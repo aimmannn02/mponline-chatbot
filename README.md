@@ -84,7 +84,24 @@ Open the local URL that Vite prints in the terminal.
 
 ## Screenshots
 
-_Add screenshots or a short demo GIF of the chat, dashboard and grievance pages here._
+### 🔑 Authentication
+User registration and secure authentication portal interface.
+
+![User Registration Page](./registration.png)<img width="2940" height="1912" alt="Image 16-10-26 at 9 54 AM" src="https://github.com/user-attachments/assets/798d6d41-b6c0-4c0b-9f8f-fb05bf560b30" />
+*Figure 1: User Account Registration Screen*
+
+### 🤖 AI-Powered FAQ Assistant
+Interactive chatbot retrieving service rules and document requirements in real time.
+![Uploading Image 16-10-26 at 9.53 AM.png…]()
+
+![MPOnline AI Chatbot Interface](./chatbot.jpg)
+*Figure 2: AI Chatbot answering document requirements for government services*
+
+### 📋 Grievance Management
+User portal to register new grievances and track submission status.
+
+![Grievance Portal](./grievance.jpg)
+*Figure 3: Grievance submission form and real-time status tracking*
 
 ## What I learned
 
