@@ -86,22 +86,37 @@ Open the local URL that Vite prints in the terminal.
 
 ### 🔑 Authentication
 User registration and secure authentication portal interface.
+<img width="2940" height="1912" alt="Image 16-10-26 at 9 48 AM" src="https://github.com/user-attachments/assets/d2fd1433-ad8e-4720-a8fe-9217de28364b" />
 
-![User Registration Page](./registration.png)<img width="2940" height="1912" alt="Image 16-10-26 at 9 54 AM" src="https://github.com/user-attachments/assets/798d6d41-b6c0-4c0b-9f8f-fb05bf560b30" />
 *Figure 1: User Account Registration Screen*
 
 ### 🤖 AI-Powered FAQ Assistant
 Interactive chatbot retrieving service rules and document requirements in real time.
-![Uploading Image 16-10-26 at 9.53 AM.png…]()
+<img width="2940" height="1912" alt="Image 16-10-26 at 9 54 AM" src="https://github.com/user-attachments/assets/0ceb9fd1-d3f2-497e-be7a-7df69bf2c18b" />
+<img width="2940" height="1912" alt="Image 16-10-26 at 9 53 AM" src="https://github.com/user-attachments/assets/e22550d4-4773-4f0b-9acd-44d7ababcf83" />
 
-![MPOnline AI Chatbot Interface](./chatbot.jpg)
 *Figure 2: AI Chatbot answering document requirements for government services*
 
 ### 📋 Grievance Management
 User portal to register new grievances and track submission status.
+<img width="1470" height="956" alt="Screenshot 2026-10-16 at 9 56 21 AM" src="https://github.com/user-attachments/assets/03104ddf-3611-4358-9a71-b1f9d70d5ad2" />
+<img width="2940" height="1912" alt="Image 16-10-26 at 9 55 AM" src="https://github.com/user-attachments/assets/b6b44107-7199-489c-a06c-ac42318c5285" />
 
-![Grievance Portal](./grievance.jpg)
+
 *Figure 3: Grievance submission form and real-time status tracking*
+
+### ⭐ Feedback Module
+Feedback submission interface for capturing user ratings and service evaluation.
+
+
+*Figure 4: User feedback submission form with rating system*
+
+### 👤 User Profile Dashboard
+User profile screen displaying account details and session control.
+
+<img width="2940" height="1912" alt="Image 16-10-26 at 9 57 AM" src="https://github.com/user-attachments/assets/9eb7dcf9-6af4-4cea-9104-1056713f4f76" />
+
+*Figure 5: User profile dashboard displaying user ID and account credentials*
 
 ## What I learned
 
